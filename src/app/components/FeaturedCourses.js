@@ -12,7 +12,7 @@ export default function FeaturedCourses({ courses, dir = "ltr", titleSection }) 
   return (
     <section className="py-10" dir={dir}>
       <div className="container mx-auto px-4 relative">
-        <h2 className="text-4xl font-bold text-center mb-12">{titleSection}</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 text-black">{titleSection}</h2>
 
         {/* أزرار التنقل المخصصة */}
         <div
@@ -58,7 +58,7 @@ export default function FeaturedCourses({ courses, dir = "ltr", titleSection }) 
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">{course.title}</h3>
+                  <h3 className="text-xl font-bold mb-2 text-black">{course.title}</h3>
                   <p className="text-gray-600 mb-4">{course.description}</p>
                   <div className="flex justify-between items-center">
                     <span className="text-sm text-gray-500">{course.duration}</span>

@@ -48,8 +48,8 @@ const CourseStatsCard = ({ icon, title, subtitle }) => {
         <div className="flex items-center justify-center mb-4">
           <span className="text-indigo-600">{icon}</span>
         </div>
-        <h3 className="text-lg md:text-xl font-bold text-center mb-2">{title}</h3>
-        <p className="text-sm md:text-gray-600 text-center">{subtitle}</p>
+        <h3 className="text-lg md:text-xl font-bold text-center mb-2 text-black">{title}</h3>
+        <p className="text-sm text-gray-600 text-center">{subtitle}</p>
       </div>
     );
   };
