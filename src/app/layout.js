@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Geo Top 7 Course",
+  title: 'Geo Top',
 };
 
 export default function RootLayout({ children }) {
