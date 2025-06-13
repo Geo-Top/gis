@@ -7,11 +7,11 @@ import FirstSection from "./components/firstSession";
 import FeaturedCourses from "./components/FeaturedCourses";
 
 const Data = {
-  courseDuration: "18 أسبوعًا",
-  courseLectures: "48 محاضرة",
-  courseHours: "120 ساعة",
+  courseDuration: "12 أسبوعًا",
+  courseLectures: "30 محاضرة",
+  courseHours: "130 ساعة",
   courseInstructor: "م. عبد الله",
-  courseStudents: "360+",
+  courseStudents: "860+",
   courseMode: "أونلاين",
 };
 const lang = "ar";
@@ -109,35 +109,35 @@ const testimonials = [
 
 const certificates = [
   {
-    src: "/images/gis/gis (1).jpg",
+    src: "/images/gis/gis (1).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
   {
-    src: "/images/gis/gis (2).jpg",
+    src: "/images/gis/gis (2).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
   {
-    src: "/images/gis/gis (3).jpg",
+    src: "/images/gis/gis (3).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
   {
-    src: "/images/gis/gis (4).jpg",
+    src: "/images/gis/gis (4).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
   {
-    src: "/images/gis/gis (5).jpg",
+    src: "/images/gis/gis (5).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
   {
-    src: "/images/gis/gis (6).jpg",
+    src: "/images/gis/gis (6).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
   {
-    src: "/images/gis/gis (7).jpg",
+    src: "/images/gis/gis (7).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
   {
-    src: "/images/gis/gis (8).jpg",
+    src: "/images/gis/gis (8).png",
     alt: "شهادة نظم المعلومات الجغرافية",
   },
 ];
@@ -230,7 +230,7 @@ export default function CoursePage() {
       <FirstSection
         introText="هنبدأ معاك من الصفر في نظم المعلومات الجغرافية"
         introText2=" هتقدر تبقى اخصائي نظم معلومات جغرافية وتشتغل في اكبر الشركات"
-        videoUrl="https://www.youtube.com/embed/sg5lhVLvoCc"
+        videoUrl="https://www.youtube.com/embed/9zN8kt4yXr4"
         consultationText="احجز مكالمتك المجانية"
         consultationLink="https://wa.me/201040950801?text=انا%20مهتم%20بدورة%20نظم%20المعلومات%20الجغرافية%0Aاريد%20حجز%20مكالمة%20هاتفية%0Aاو%20من%20فضلك%20قم%20بتقديم%20لي%20كافة%20التفاصيل"
       />
